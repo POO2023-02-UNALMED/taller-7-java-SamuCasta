@@ -65,7 +65,7 @@ public class Tesis extends Escrito{
 	    return getPaginas() * palabrasPagina * 5;
 	}
 	public String toString() {
-	    return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + getIdea() + "\n" + argumentos.length + "\n" + getConclusion() + "\n" + getReferencias();
+	    return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + getIdea() + "\n" + getArgumentos().length + "\n" + getConclusion() + "\n" + getReferencias();
 	}
 
 }
